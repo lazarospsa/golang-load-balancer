@@ -7,6 +7,9 @@ A very simple HTTP load balancer written in Golang.
 ## Usage
 
 ```
+$ cd {move_to}/golang-load-balancer
+$ go get github.com/intrip/golang-load-balancer/common
+$ go get github.com/spf13/viper
 $ go build
 $ ./golang-load-balancer
 ```
